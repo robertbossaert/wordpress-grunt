@@ -10,7 +10,7 @@ This is a simple Grunt starter boilerplate for Wordpress themes, it comes with t
 * Javascript uglify (to concat/minify)
 
 ## Requirements
-You will need NodeJS [NodeJS](https://nodejs.org/) and the [Grunt-CLI](http://gruntjs.com/) (Grunt command-line interface) in order to use this boilerplate.
+You will need the following prerequisites: [NodeJS](https://nodejs.org/) and the [Grunt-CLI](http://gruntjs.com/) (Grunt command-line interface) in order to use this boilerplate.
 
 ## Installation
 
