@@ -17,10 +17,19 @@ You will need NodeJS [NodeJS](https://nodejs.org/) and the [Grunt-CLI](http://gr
 ## Running Grunt
 
 ##### Option 1: Terminal / Console
-CD to the directory containing your Grunt files (i.e. package.json) and run `grunt`
+CD to the directory containing your Grunt files (i.e. package.json) and run 
+```
+grunt
+```
 
 ##### Option 2: Run the executable .cmd (Windows) / .command (Unix)
 Double click the executable that comes with this boilerplate.
 
-Windows: `_Grunt_watch_Windows.cmd`
-Mac: `_Grunt_watch_Mac.command` (coming soon)
+Windows: 
+```
+_Grunt_watch_Windows.cmd
+```
+Mac:
+```
+_Grunt_watch_Mac.command
+```
