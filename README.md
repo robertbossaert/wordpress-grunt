@@ -43,14 +43,16 @@ Double click the executable that comes with this boilerplate.
 
 Windows: 
 ```
-_Grunt_watch_Windows.cmd
+_Grunt_Windows.cmd
 ```
 Mac:
 ```
-_Grunt_watch_Mac.command
+_Grunt_Mac.command
 ```
 
 Mac users may need to make sure that the `.command` file has executable permissions. Open a Terminal window in directory where the executables are located and run:
 ```
 chmod ugo+x *.command
 ```
+
+The usage of .cmd and .command files were inspired by my colleague @dutchwebworks
