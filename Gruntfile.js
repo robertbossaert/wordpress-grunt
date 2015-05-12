@@ -37,7 +37,7 @@ module.exports = function(grunt) {
         // Task: autoprefixer
         autoprefixer: {
             options: {
-                browsers: ['last 2 versions', 'ie 9', 'ios 6', 'android 4'],
+                browsers: ['last 2 versions', 'ie 8', 'ie 9'],
                 map: true
             },
             files: {
@@ -85,8 +85,7 @@ module.exports = function(grunt) {
                     'assets/js/plugins.min.js': [
                         'assets/js/source/plugins.js',
                         'assets/js/vendor/navigation.js',
-                        'assets/js/vendor/skip-link-focus-fix.js',
-                        // 'assets/js/vendor/yourplugin/yourplugin.js',
+                        'assets/js/vendor/skip-link-focus-fix.js'
                     ]
                 }
             },
@@ -145,14 +144,14 @@ module.exports = function(grunt) {
             },
             staging: {
                  options: {
-                    dest: "~/path/to/theme",
-                    host: "user@host.com"
+                    dest: "~/theme/path",
+                    host: "user@yourdomain.com"
                 }
             },
             production: {
                 options: {
-                    dest: "~/path/to/theme",
-                    host: "user@host.com"
+                    dest: "~/theme/path",
+                    host: "user@yourdomain.com"
                 }
             }
         }
